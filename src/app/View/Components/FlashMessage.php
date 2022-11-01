@@ -1,6 +1,6 @@
 <?php
 
-namespace Jensramakers\app\View\Components;
+namespace Jensramakers\LaravelFlashmessage\app\View\Components;
 
 use Illuminate\View\Component;
 
@@ -13,7 +13,6 @@ class FlashMessage extends Component
      */
     public function __construct()
     {
-        //
     }
 
     /**
@@ -23,6 +22,6 @@ class FlashMessage extends Component
      */
     public function render()
     {
-        return view('components.flash-message');
+        return view('laravel-flashmessage::flash-message');
     }
 }
