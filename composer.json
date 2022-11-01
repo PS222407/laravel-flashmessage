@@ -1,0 +1,21 @@
+{
+  "name": "jensramakers/laravel-flashmessage",
+  "homepage": "https://github.com/PS222407/laravel-flashmessage",
+  "description": "create easy flash messages",
+  "autoload": {
+    "psr-4": {
+      "Jensramakers\\Flashmessage\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jensramakers\\Flashmessage\\FlashmessageServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^9.37"
+  }
+}
